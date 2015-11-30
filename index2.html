@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JS Betting Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <script type="text/javascript" src="./lib/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js_betting_game_2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1> Betting Game</h1>
+      <form id="bettingForm" action="example/submit.html">
+        Place a bet between $5 and $10 or enter quit to exit<br>
+        <input type="text" id="userBet" name="userBet"> <br>
+        guess a number between 1 and 10 <br>
+        <input type="text" id="userNumber" name="userNumber"> <br><br>
+        <button>Play!</button>
+      </form>
+
+      <p id="randomNumber"></p>
+      <p id="message"></p>
+    </div>
+  </body>
+</html>
